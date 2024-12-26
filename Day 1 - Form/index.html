@@ -1,12 +1,34 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Login Form - Day 1</title>
     <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
-    
+    <main id="main">
+        <form novalidate method="post">
+            <img src="./assets/login.png" alt="login" id="login_icon">
+            <div class="fields">
+                <label for="email">Email</label>
+                <input type="email" name="email" id="email" required placeholder="example123@email.com">
+            </div>
+            <div class="fields">
+                <label for="password">Password</label>
+                <input type="password" name="password" id="password" required placeholder="Enter password">
+            </div>
+            <div id="remember_box">
+                <input type="checkbox" name="remember" id="remember">
+                <label for="remember">Remember me</label>
+            </div>
+            <div>
+                <button type="submit">Login</button>
+            </div>
+        </form>
+    </main>
 </body>
+
 </html>
