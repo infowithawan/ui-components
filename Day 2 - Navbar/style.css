@@ -6,3 +6,80 @@
   font-weight: 300;
   font-style: normal;
 }
+body {
+  background-color: blanchedalmond;
+  max-width: 100vw;
+  min-height: 100vh;
+}
+header {
+  display: flex;
+  padding: 0 15px;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 100vw;
+  height: 3rem;
+  background-color: cadetblue;
+  box-shadow: 1px 1px 10px black;
+}
+#logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0.75rem;
+  height: 90%;
+  font-size: larger;
+  text-decoration: none;
+  color: whitesmoke;
+}
+#logo > img {
+  height: 100%;
+}
+nav {
+  display: flex;
+  height: 90%;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+}
+nav > a {
+  padding: 0.5rem 1rem;
+  font-size: small;
+  text-decoration: none;
+  background-color: whitesmoke;
+  color: black;
+  border: none;
+  border-radius: 0.25rem;
+  transition: all 500ms ease-in-out 0s;
+}
+nav > a:hover {
+  box-shadow: inset 2px 2px 20px 2px cadetblue;
+}
+#search-bar {
+  width: 15%;
+  display: flex;
+  height: 70%;
+  align-items: center;
+  justify-content: center;
+}
+#search-bar > * {
+  height: 80%;
+  border: none;
+  text-align: center;
+  font-size: small;
+  padding: 2px;
+}
+#search-bar > *:focus-visible {
+  outline: none;
+}
+input {
+  border-radius: 0 0 0 0.5rem;
+  width: 85%;
+}
+button {
+  border-radius: 0 0.5rem 0 0;
+  font-size: large;
+  cursor: pointer;
+  display: block;
+  background-color: aqua;
+  width: 15%;
+}
