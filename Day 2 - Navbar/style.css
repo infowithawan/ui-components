@@ -43,9 +43,11 @@ nav {
   align-items: center;
   justify-content: center;
   gap: 1rem;
+  width: 50%;
+  flex-wrap: wrap;
 }
 nav > a {
-  padding: 0.5rem 1rem;
+  padding: 5px 8px;
   font-size: small;
   text-decoration: none;
   background-color: whitesmoke;
