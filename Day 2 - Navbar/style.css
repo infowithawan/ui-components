@@ -12,6 +12,8 @@ body {
   min-height: 100vh;
 }
 header {
+  position: sticky;
+  top: 0;
   display: flex;
   padding: 0 15px;
   justify-content: space-between;
