@@ -23,6 +23,7 @@ header {
   background-color: cadetblue;
   box-shadow: 1px 1px 10px black;
   animation: navbar-animation 700ms ease-in-out 1;
+  z-index: 2;
 }
 #logo {
   display: flex;
@@ -44,7 +45,6 @@ nav {
   justify-content: center;
   gap: 1rem;
   width: 50%;
-  flex-wrap: wrap;
 }
 nav > a {
   padding: 5px 8px;
@@ -76,17 +76,25 @@ nav > a:hover {
 #search-bar > *:focus-visible {
   outline: none;
 }
-input {
+#search-bar > input {
   border-radius: 0 0 0 0.5rem;
   width: 85%;
 }
-button {
+#search-bar > button {
   border-radius: 0 0.5rem 0 0;
   font-size: large;
   cursor: pointer;
-  display: block;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   background-color: aqua;
   width: 15%;
+}
+.responsive-navbar {
+  display: none;
+}
+#check {
+  display: none;
 }
 @keyframes navbar-animation {
   from {
@@ -94,5 +102,121 @@ button {
   }
   top {
     top: 0;
+  }
+}
+@media (max-width: 780px) {
+  nav {
+    display: none;
+  }
+  header {
+    animation: none;
+  }
+  header > * {
+    width: 50% !important;
+  }
+  #logo {
+    justify-content: flex-start;
+  }
+  .responsive-navbar {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    height: 3rem;
+    position: sticky;
+    top: 0;
+    width: 100vw;
+    position: relative;
+  }
+  .responsive-navbar #bar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1.5rem;
+    background-color: cadetblue;
+    height: 70%;
+    width: 70%;
+    border: none;
+    border-radius: 0 0 0 1rem;
+    position: absolute;
+    top: -3rem;
+    right: 6%;
+    z-index: 1;
+  }
+  .responsive-navbar #bar > a {
+    padding: 2px 4px;
+    font-size: smaller;
+    text-decoration: none;
+    background-color: whitesmoke;
+    color: black;
+    border: none;
+    border-radius: 0.25rem;
+  }
+
+  .responsive-navbar #icons {
+    background-color: cadetblue;
+    border: none;
+    border-radius: 0 0 0 0.5rem;
+    height: 80%;
+    width: 5%;
+  }
+  .responsive-navbar #icons label {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+  }
+  .responsive-navbar #icons label img:first-child {
+    display: none;
+  }
+  .responsive-navbar #icons img {
+    height: 50%;
+  }
+  #check:checked + * > img[alt="menu-icon1"] {
+    display: block !important;
+  }
+  #check:checked + * > img[alt="menu-icon2"] {
+    display: none;
+  }
+  #bar:has(+ * > #check:checked) {
+    top: 0.25rem;
+  }
+}
+@media (max-width: 600px) {
+  #bar {
+    width: 90% !important;
+    right: 7% !important;
+  }
+  .responsive-navbar #bar > a {
+    padding: 2px 4px;
+    font-size: x-small;
+    text-decoration: none;
+    background-color: whitesmoke;
+    color: black;
+    border: none;
+    border-radius: 0.25rem;
+  }
+  #icons {
+    width: 6% !important;
+  }
+}
+@media (max-width: 435px) {
+  #logo {
+    font-size: medium;
+  }
+}
+@media (max-width: 390px) {
+  header {
+    padding: 0 10px;
+  }
+  #logo {
+    font-size: small;
+    gap: 0.25rem;
+  }
+  #bar {
+    gap: 0.5rem !important;
+    right: 9% !important;
+  }
+  #icons {
+    width: 8% !important;
   }
 }
