@@ -22,6 +22,7 @@ header {
   height: 3rem;
   background-color: cadetblue;
   box-shadow: 1px 1px 10px black;
+  animation: navbar-animation 700ms ease-in-out 1;
 }
 #logo {
   display: flex;
@@ -84,4 +85,12 @@ button {
   display: block;
   background-color: aqua;
   width: 15%;
+}
+@keyframes navbar-animation {
+  from {
+    top: 0.5rem;
+  }
+  top {
+    top: 0;
+  }
 }
