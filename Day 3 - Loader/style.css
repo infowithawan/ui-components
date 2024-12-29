@@ -6,3 +6,38 @@
   font-weight: 300;
   font-style: normal;
 }
+body {
+  background-color: steelblue;
+}
+#container {
+  min-width: 100vw;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#loader {
+  border-radius: 100%;
+  border: 6px solid white;
+  border-top-color: black;
+  width: 2.5rem;
+  height: 2.5rem;
+  animation: loader 700ms linear infinite;
+}
+@keyframes loader {
+  0% {
+    transform: rotate(0);
+  }
+  25% {
+    transform: rotate(90deg);
+  }
+  50% {
+    transform: rotate(180deg);
+  }
+  75% {
+    transform: rotate(270deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
