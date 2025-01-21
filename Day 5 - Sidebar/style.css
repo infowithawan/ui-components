@@ -21,7 +21,6 @@ body {
   color: rgb(241, 191, 191);
 }
 button {
-  margin: 1rem 2rem;
   border: none;
   background-color: transparent;
   cursor: pointer;
@@ -34,12 +33,13 @@ button:focus {
 }
 .open_menu_btn {
   position: absolute;
-  left: 1%;
+  left: 2%;
   background: url("./assets/bars-solid.svg");
   background-repeat: no-repeat;
   background-position: center;
 }
 .close_menu_btn {
+  margin: 2%;
   position: absolute;
   top: 0;
   right: 0;
@@ -59,6 +59,7 @@ button:hover {
   min-height: 100vh;
   background-color: burlywood;
   transition: all 0.75s ease-in-out;
+  filter: drop-shadow(1px 1px 10px black);
 }
 .sidebar_toggle {
   left: 0%;
@@ -80,4 +81,19 @@ a {
 .sidebar nav a:hover {
   transform: scale(1.05);
   transition: all 0.3s ease-in-out;
+}
+@media screen and (max-width: 770px) {
+  .sidebar {
+    width: 40%;
+  }
+}
+@media screen and (max-width: 500px) {
+  .sidebar {
+    width: 60%;
+    font-size: small;
+  }
+  .open_menu_btn {
+    width: 15px;
+    height: 15px;
+  }
 }
