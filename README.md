@@ -8,6 +8,7 @@ UI Components (HTML, CSS, JavaScript, Bootstrap, Tailwind CSS, React Js)
 | 2 | Created a Simple Responsive Sticky Navbar | [Preview](./Day%202%20-%20Navbar/assets/preview_day_2_navbar.png) |
 | 3 | Created a Loader | [Preview](./Day%203%20-%20Loader/assets/preview_day_3_loader.png) |
 | 4 | Created an Animated Button | [Preview](./Day%204%20-%20Animated%20Button/assets/preview_day_4_animated_button.png) |
+| 5 | Created a Sidebar | [Preview](./Day%205%20-%20Sidebar/assets/preview_day_5_sidebar.png) |
 
 ## My Social Media Platforms
 
