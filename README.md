@@ -9,6 +9,7 @@ UI Components (HTML, CSS, JavaScript, Bootstrap, Tailwind CSS, React Js)
 | 3 | Created a Loader | [Preview](./Day%203%20-%20Loader/assets/preview_day_3_loader.png) |
 | 4 | Created an Animated Button | [Preview](./Day%204%20-%20Animated%20Button/assets/preview_day_4_animated_button.png) |
 | 5 | Created a Sidebar | [Preview](./Day%205%20-%20Sidebar/assets/preview_day_5_sidebar.png) |
+| 6 | Created a Theme Toggler (ReactJs) | [Preview](./Day%206%20-%20ThemeToggler/assets/preview_day_6_themeToggler.png) |
 
 ## My Social Media Platforms
 
