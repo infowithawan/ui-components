@@ -12,13 +12,14 @@ UI Components (HTML, CSS, JavaScript, Bootstrap, Tailwind CSS, React Js)
 | 6 | Created a Theme Toggler (ReactJs) | [Preview](./Day%206%20-%20ThemeToggler/assets/preview_day_6_themeToggler.png) |
 
 ## My Social Media Platforms
-
+<div align="center">
 <a href="https://www.youtube.com/@infowithawan" target="_blank">
-<img src="./assets//youtube.png" height="50px" alt="youtube icon" title="https://www.youtube.com/@infowithawan" style="margin-right:10px;">
+<img src="./assets//youtube.png" height="30px" alt="youtube icon" title="https://www.youtube.com/@infowithawan" style="margin-right:10px;">
 </a>
 <a href="https://www.facebook.com/infowithawan" target="_blank">
-<img src="./assets/facebook.png" height="50px" alt="facebook icon" title="https://www.facebook.com/infowithawan" style="margin-right:10px;">
+<img src="./assets/facebook.png" height="30px" alt="facebook icon" title="https://www.facebook.com/infowithawan" style="margin-right:10px;">
 </a>
 <a href="https://www.instagram.com/infowithawan" target="_blank">
-<img src="./assets/instagram.png" height="50px" alt="instagram icon" title="https://www.instagram.com/infowithawan">
+<img src="./assets/instagram.png" height="30px" alt="instagram icon" title="https://www.instagram.com/infowithawan">
 </a>
+</div>
