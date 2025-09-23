@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="shortcut icon" href="../assets/logo.png" type="image/png" />
+    <link rel="stylesheet" href="style.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact Form</title>
+  </head>
+
+  <body class="scrollbar-custom">
+    <div class="container">
+      <header>
+        <h1>Contact Form</h1>
+        <p>Feel free to contact for any query or support</p>
+      </header>
+      <main>
+        <form novalidate autocomplete="off">
+          <div>
+            <label for="fullname">Full Name</label>
+            <input
+              autocomplete="off"
+              type="text"
+              name="fullname"
+              id="fullname"
+              class="focus-none"
+            />
+            <p class="error hidden"></p>
+          </div>
+          <div>
+            <label for="subject">Subject</label>
+            <input
+              autocomplete="off"
+              type="text"
+              name="subject"
+              id="subject"
+              class="focus-none"
+            />
+            <p class="error hidden"></p>
+          </div>
+          <div class="grid-full">
+            <label for="email">Email</label>
+            <input
+              autocomplete="off"
+              type="email"
+              name="email"
+              id="email"
+              class="focus-none"
+            />
+            <p class="error hidden"></p>
+          </div>
+          <div class="grid-full">
+            <label for="message">Message</label>
+            <textarea
+              autocomplete="off"
+              name="message"
+              id="message"
+              class="focus-none"
+            ></textarea>
+            <p class="error hidden"></p>
+          </div>
+          <div class="msg-box"></div>
+          <div>
+            <button type="submit" class="focus-none">Submit</button>
+          </div>
+        </form>
+      </main>
+    </div>
+    <script type="module" src="js/main.js"></script>
+  </body>
+</html>

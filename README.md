@@ -10,8 +10,10 @@ UI Components (HTML, CSS, JavaScript, Bootstrap, Tailwind CSS, React Js)
 | 4 | Created an Animated Button | [Preview](./Day%204%20-%20Animated%20Button/assets/preview_day_4_animated_button.png) |
 | 5 | Created a Sidebar | [Preview](./Day%205%20-%20Sidebar/assets/preview_day_5_sidebar.png) |
 | 6 | Created a Theme Toggler (ReactJs) | [Preview](./Day%206%20-%20ThemeToggler/assets/preview_day_6_themeToggler.png) |
+| 7 | Created a Responsive Contact Form | [Preview](./Day%207%20-%20Responsive%20Contact%20Form/assets/preview_day_7_responsive_contact_form.png) |
 
 ## My Social Media Platforms
+
 <div align="center">
 <a href="https://www.youtube.com/@infowithawan" target="_blank">
 <img src="./assets//youtube.png" height="30px" alt="youtube icon" title="https://www.youtube.com/@infowithawan" style="margin-right:10px;">
