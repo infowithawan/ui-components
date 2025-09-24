@@ -11,6 +11,7 @@ UI Components (HTML, CSS, JavaScript, Bootstrap, Tailwind CSS, React Js)
 | 5 | Created a Sidebar | [Preview](./Day%205%20-%20Sidebar/assets/preview_day_5_sidebar.png) |
 | 6 | Created a Theme Toggler (ReactJs) | [Preview](./Day%206%20-%20ThemeToggler/assets/preview_day_6_themeToggler.png) |
 | 7 | Created a Responsive Contact Form | [Preview](./Day%207%20-%20Responsive%20Contact%20Form/assets/preview_day_7_responsive_contact_form.png) |
+| 8 | Created a Responsive Collapsible Sidebar (Theme Toggle) | [Preview](./Day%208%20-%20Collapsible%20Sidebar/assets/preview_day_8_collapsible_sidebar.png) |
 
 ## My Social Media Platforms
 
