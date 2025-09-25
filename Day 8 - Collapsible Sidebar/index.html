@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="shortcut icon" href="../assets/logo.png" type="image/png" />
+    <link rel="stylesheet" href="style.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Collapsible Sidebar</title>
+  </head>
+  <body class="scrollbar-custom">
+    <div class="container">
+      <div class="sidebar">
+        <nav>
+          <div class="sidebar-inner hidden">
+            <div class="sidebar-header">
+              <p class="logo">Future Dev</p>
+              <button class="menu-close focus-none">
+                <img src="assets/xmark-solid.svg" />
+              </button>
+            </div>
+            <div class="sidebar-body">
+              <a href="#">Home</a>
+              <a href="#">Blog</a>
+              <a href="#">About</a>
+              <a href="#">Sevices</a>
+              <a href="#">Portfolio</a>
+              <a href="#">Contact</a>
+            </div>
+          </div>
+        </nav>
+      </div>
+      <header>
+        <div>
+          <button class="menu-open focus-none">
+            <img src="assets/bars-solid.svg" />
+          </button>
+          <p class="logo">Future Dev</p>
+        </div>
+        <button class="theme-btn focus-none">
+          <img src="assets/moon.svg" />
+        </button>
+      </header>
+      <main></main>
+    </div>
+    <script type="module" src="script.js"></script>
+  </body>
+</html>
